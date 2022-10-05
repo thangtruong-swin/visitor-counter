@@ -23,5 +23,7 @@ function save() {
 }
 
 function reset() {
+	countEL.textContent = 0;
+	count = 0;
 	saveEL.textContent = "The previous entered: ";
 }
